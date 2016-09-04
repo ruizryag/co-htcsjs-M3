@@ -1,0 +1,115 @@
+/* HEADER NAVBAR */
+
+#main-content {
+	padding-top: 50px
+}
+
+.navbar-brand {
+	position: absolute;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.menu-container {
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: #778899;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+/********** Large devices only (desktop) **********/
+@media (min-width: 1200px) {
+	.navbar-brand {
+		top: -29px;
+		left: 70px;
+	}
+		#brand {
+		font-size: 1.9em;
+	}
+	#nav-list {
+		display: none;
+	}
+
+	.menu-text {
+		padding: 20px 80px 20px;
+
+	}
+
+}
+
+/********** Medium devices only (tablet) **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-brand {
+		top: -28px;
+		left: 50px;
+	}
+	#brand {
+		font-size: 1.8em;
+	}
+	#nav-list {
+		display: none;
+	}
+
+	.menu-text {
+		padding: 20px 80px 20px;
+
+	}
+
+}
+
+/********** Small devices only (mobile) **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand {
+		top: -25px;
+		left: 30px;
+	}
+	#brand {
+		font-size: 1.6em;
+	}
+	#nav-list {
+		display: none;
+	}
+	.menu-text {
+		padding: 20px 40px 20px;
+
+	}
+
+}
+
+/********** Extra small devices only (mobile-drop) **********/
+@media (max-width: 767px) {
+	.navbar-brand {
+		top: -20px;
+		left: 15px;
+	}
+	#brand {
+		font-size: 1.2em;
+	}
+	.menu-text {
+		padding: 20px 30px 20px;
+
+	}
+
+	.menu-container {
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+}
